@@ -389,7 +389,7 @@ class AdultMechanism(Mechanism):
             theta = engine.model.mle(marginals)
             engine.potentials = theta
             # EDIT: We replaced the function named belief_prop_fast by
-            # belief_propagation. Thanks to Pascale-Jade Valot.
+            # belief_propagation. Thanks to Pascale-Jade Vallot.
             engine.marginals = engine.model.belief_propagation(theta)
 
         # Create the path to the checkpoint file where we will save the current
