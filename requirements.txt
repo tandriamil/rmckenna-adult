@@ -10,7 +10,7 @@ pip==21.1.3           # Just python utilities
 setuptools==57.4.0    # Just python utilities
 scipy==1.7.0
 scikit-learn==0.24.2  # Strange version number but it works
-tensorflow==2.5.0
+tensorflow==2.9.3
 tensorflow-privacy==0.6.2
 # Use the following command if using cuda >= 11.1
 # pip install torch==1.9.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
